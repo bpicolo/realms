@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% if page.comments %}
+    <div class="wrapper">
+      <div id="disqus_thread"></div>
+    </div>
+    <script>
+
+    var disqus_config = function () {
+    this.page.identifier = "{{ page.slug }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//destinedforfailure.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    {% endif %}
+
+    {% include footer.html %}
+
+  <script id="dsq-count-scr" src="//destinedforfailure.disqus.com/count.js" async></script>
+  </body>
+
+</html>
