@@ -9,8 +9,10 @@ comments: true
 
 This is the blog post to kick off my blog posts, so I'll keep it short and simple.
 
-I'm trying to make an MMORPG. There are plenty of people out there who will tell you not
-to, and if you browse around the internet that's certainly the general advice.
+I'm trying to make an MMORPG. I have no official name for the game just yet, but I'm going to refer to it as `Realms` for now.
+
+There are plenty of people out there who will tell you not
+to work on an MMO of any sort. If you browse around the internet that's certainly the general advice.
 It's also advice I've already gotten many times over in Discord and other chats (and I'm only a few weeks in).
 Admittedly, for a long time when I was younger I listened to such advice (and frankly, wasn't
 a decent enough developer to accomplish anything at the time).
@@ -24,7 +26,7 @@ on those instead.
 
 ## It's easy.
 
-I've only ever really been interested in MMORPGss. Everquest, RuneScape, Everquest 2, World of Warcraft, Guild Wars,
+I've only ever really been interested in MMORPGs. Everquest, RuneScape, Everquest 2, World of Warcraft, Guild Wars,
 Guild Wars 2, other-random-Korean-MMOs-trying-to-fill-the-gaps. I like MMORPGs. Rather, I **love**
 MMORPGs. They're by far the most fascinating games to me. I love the social-aspects, the lore,
 the gameplay... Really the whole shebang. Sure, I've played and enjoyed other games in the meantime,
@@ -55,7 +57,6 @@ The goal of this blog, on the other hand, partly for the sake of rubber ducking,
 parlty to seek out feedback from others in case I go horribly wrong, and partly
 fo funsies.
 
-So that's where we are. Ben attempts to MMO Part 1. Should be fun!
-
+So that's where we are. Attempting to MMO Part 1. Should be fun!
 
 [1]: https://en.wikipedia.org/wiki/Scope_creep
