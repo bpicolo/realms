@@ -162,7 +162,7 @@ make API requests on behalf of any user in the game. Whenever we need to call ou
 [Command]
 public void CmdLootItem(int itemInstanceID) {
     // We can find the user trying to pickup an item without him making any
-    // claims about who he is. This is trusltess.
+    // claims about who he is. This is trustless.
     var user = gameServerManager.UserForConnection(connectionToClient);
     if (!CanPickupItem(user, itemInstanceId)) {
         Debug.Log("A player tried to pick up an item he isn't allowed to pickup, oh no!")
