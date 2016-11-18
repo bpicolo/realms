@@ -15,12 +15,12 @@ so it's important to have a clear vision of the intent.
 
 To kick us off, here's a diagram of data flowing through the entire set of applications.
 
-![Architecture Diagram]({{ site.url }}/assets/architecture-diagram.png)
+![Architecture Diagram]({{ site.baseurl }}/assets/architecture-diagram.png)
 
 So, what's is this picture even trying to say? Let's break down the concerns of each component.
 
 ## The player
-Clicks mouse, potentially recieves entertainment.
+Clicks mouse, potentially receives entertainment.
 
 ## Unity Client
 The Unity client is the "frontend" of the game - it's the game running on a player's computer.

@@ -17,7 +17,7 @@ title: Destined for failure
 email: be.picolo at Google's very large email site
 description: > # this means to ignore newlines until "baseurl:"
   The trials and tribulations of attempting to make a small MMO with Unity3D.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/realms" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: BenPicolo
 github_username:  bpicolo
