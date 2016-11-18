@@ -204,6 +204,7 @@ With that, our Unity backend does the task of authenticating the user with our E
 and registering a user's credentials into the gameServerManager.
 
 To recap, here's what we've got:
+
 1. Secure authentication for users.
 2. Knowledge of which players are connected to the game.
 3. Knowledge of hour to find different players in our game.
