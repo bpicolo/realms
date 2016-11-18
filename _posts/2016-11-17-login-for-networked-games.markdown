@@ -200,8 +200,8 @@ public void OnLogin(
 }
 {% endhighlight %}
 
-With that, our Unity backend does the task of registering a user's credentials
-into our storage.
+With that, our Unity backend does the task of authenticating the user with our Elixir backend,
+and registering a user's credentials into the gameServerManager.
 
 To recap, here's what we've got:
 1. Secure authentication for users.
