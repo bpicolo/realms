@@ -59,7 +59,7 @@ The first problem is that, when a user calls a [Command] in the game, the backen
 essentially only knows one thing about them: their [network connection].
 
 For us, the second problem is that our Unity backend is making requests to our web
-backend on behalf of the user (see the [page on Realms' architecture]({{ site.baseurl }}{% post_url 2016-11-16-game-architecture %})). So there's an intermediary.
+backend on behalf of the user (see the [page on Realms' architecture]({{ site.baseurl }}{% post_url 2016-11-16-game-architecture %}) for more context on this). So there's an intermediary.
 
 A third problem is we need to be able to identify players in the other direction:
 given a user id, how do we send that user a network message? If I want to give a player
